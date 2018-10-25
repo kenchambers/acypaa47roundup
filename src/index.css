@@ -1,0 +1,28 @@
+/* NOTE: gradient site  */
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.gradientbackgroundSnow {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+/* bootstrap overrides: */
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.list-group {
+  margin-bottom: 0 !important;
+}
